@@ -18,5 +18,6 @@ object Task3_1 {
     val path1 = "C://spark//examples//src//main//resources//people.json"
     val People = spark.read.json(path1).show()
     val Empoyees = spark.read.json(path2).show()
+    //added message
   }
 }
